@@ -4,11 +4,11 @@ class LinkedList:
     def __init__(self):
         self.start_node = None
     
-    def traverse_list(self):
+    def traverse_list(self): 
         if self.start_node is None:
             print("List has no element")
-            return
-        else:
+            return 
+        else: 
             n =  self.start_node
             while n is not None:
                 print(n.item, " ")
@@ -110,7 +110,7 @@ class LinkedList:
                 print("Item found")
                 return True
             n = n.ref
-        print("item bot found")
+        print("item not found")
         return False
 
 
